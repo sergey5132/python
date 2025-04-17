@@ -7,6 +7,12 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    q=5
+    print(id(q))
+
+    print(dir())
+
+    var_n = lambda x: x**2
 
 
 # Press the green button in the gutter to run the script.
